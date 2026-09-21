@@ -42,7 +42,7 @@ content:
         sub_title: System Engineer
         caption: 2025 - Present
         description: | 
-        <img src="mail-server-icon.png" style="float: right; width: 80px; margin-left: 15px; border-radius: 8px;">
+          <img src="mail-server-icon.png" style="float: right; width: 80px; margin-left: 15px; border-radius: 8px;">
           - Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
           - Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
           - Developed custom Bash scripts (`script-pm.sh`, `getuser.sh`) and Ansible playbooks (`audit_carbonio.yml`) to automate server auditing, health checks, and bulk Class of Service updates.
