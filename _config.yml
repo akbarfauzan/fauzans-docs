@@ -100,7 +100,7 @@ content:
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/fauzans-docs
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
