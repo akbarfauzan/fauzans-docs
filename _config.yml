@@ -17,7 +17,7 @@ darkmode: false
 
 # Social links (Commented out the ones you don't use to hide their icons)
 github_username: akbarfauzan
-linkedin_username: "Fauzan Akbar" # Update this with your actual LinkedIn username
+linkedin_username: fznnakbr21 # Update this with your actual LinkedIn username
 # twitter_username: jekyllrb
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -27,7 +27,7 @@ instagram_username: fznnakbr
 # youtube_username: jekyll
 
 # About Section
-about_profile_image: images/profile.png # Make sure to upload your photo to this path
+about_profile_image: fauzan-profile.png # Make sure to upload your photo to this path
 about_content: | 
   Hello, I'm Fauzan. This space is a reflection of my journey—capturing my professional experiences, technical skills, and personal interests. 
   
@@ -42,9 +42,8 @@ content:
         sub_title: System Engineer
         caption: 2025 - Present
         description: | 
-          <img src="mail-server-icon.png" style="float: right; width: 80px; margin-left: 15px; border-radius: 8px;">
-          - Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
-          - Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
+          - <i class="fas fa-server" style="color: #4CAF50;"></i> Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
+          - <i class="fas fa-shield-alt" style="color: #2196F3;"></i> Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
           - Developed custom Bash scripts (`script-pm.sh`, `getuser.sh`) and Ansible playbooks (`audit_carbonio.yml`) to automate server auditing, health checks, and bulk Class of Service updates.
           - Configured network security and mail gateways using FortiMail and Proxmox Mail Gateway.
       
