@@ -18,53 +18,47 @@ darkmode: false
 github_username: fauzanakbr
 linkedin_username: fznnakbr21
 instagram_username: fznnakbr
-
-additional_links:
-  - title: fznnakbr
-    icon: fab fa-steam
-    url: https://steamcommunity.com/profiles/76561199415901364
-  - title: jofisking
-    icon: fab fa-twitch
-    url: https://twitch.tv/jofisking
     
 # About Section
 about_profile_image: fauzan-profile.png 
 about_content: |
   Hello, I'm Fauzan. This space is a reflection of my journey—capturing my professional experiences, technical skills, and personal interests. 
   
-  My path started right after graduating from vocational school, and since then, I've been continuously building my expertise in IT infrastructure to shape a strong future. Beyond the daily work managing Linux environments and enterprise mail servers, my goal is to share positive insights, inspire those around me, and build meaningful connections with great people.
+  My path started right after graduating from vocational school, and since then, I've been continuously building my expertise in IT Infrastructure and Cyber Security to shape a strong future. 
+  Currently focused on mail server installation, configuration, maintenance, tuning, and troubleshooting in Linux-based environments.
+  
+  Beyond the daily work managing Linux environments and enterprise mail servers, my goal is to share positive insights, inspire those around me, and build meaningful connections with great people.
 
 content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: Altaflix Techno Global
         sub_title: System Engineer
         caption: May 2025 - Present
         description: |
           - Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
           - Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
-          - Developed custom Bash scripts (`script-pm.sh`, `getuser.sh`) and Ansible playbooks (`audit_carbonio.yml`) to automate server auditing, health checks, and bulk Class of Service updates.
+          - Developed custom Bash scripts (`pm-script.sh`, `get-data.sh`) and Ansible playbooks (`audit_mail.yml`) to automate server auditing, health checks, and bulk featue updates.
           - Configured network security and mail gateways using FortiMail and Proxmox Mail Gateway.
       
-      - layout: left
+      - layout: top-left
         title: Halik Selindo Alpha
         sub_title: VSAT Engineer
         caption: Jul 2024 - May 2025
         description: |
-          - Participated in the 'MIGRASI' project by KOMINFO - BAKTI for internet installation using VSAT HTS at 3T locations.
-          - Executed installation, maintenance, dismantling, and migration projects across remote areas in Indonesia, including the Papua Region and South Sumatra.
-          - Maintaining (preventive maintenance) of VSAT devices in East Kalimantan for a week.
-
-      - layout: left
+          - Participated in the 'MIGRASI' project by KOMINFO - BAKTI for internet installation using VSAT HTS at 3T locations in East Indonesia.
+          - Executed installation, maintenance, dismantling, and migration projects across remote areas in East Indonesia, especially in the Papua Region and also South Sumatra.
+          - Maintaining (preventive maintenance) of VSAT devices in East Kalimantan for a week. Frequently carried out of maintenance in Jakarta.
+      - layout: top-left
         title: Kompas Gramedia Radio Network
         sub_title: IT Support (Internship)
         caption: Jan 2023 - Jul 2023
         description: |
           - Managed and maintaned office network and devices.
-          - Supporting end user cases / issues. 
-          - Created some notes and reports of my activity during this internship.
+          - Supported and solved end user cases / issues with teamwork.
+          - Created some notes, reports, and documentations of my activity during this internship.
 
   - title: Projects & Certifications
     layout: list
@@ -72,16 +66,16 @@ content:
       - layout: left
         title: Sorb Security Mail Encrypt
         sub_title: Enterprise-Grade Email Security
-        caption: Current Project
+        caption: Current Project 
         description: |
-          Implementation of mail encryption topologies to ensure zero-trust precision and secure email transmission across enterprise environments.
+          Enterprise-Grade Email Security: Architected and deployed secure email encryption topologies across a private enterprise environment, ensuring zero-trust precision and safeguarding highly sensitive mail transactions.
       
       - layout: left
         title: Carbonio L1 Certification
         sub_title: Zextras (306)
         caption: 2026 - 2027
         description: |
-          Hands-on laboratory training covering the fundamentals of Zextras Carbonio and migration workflows from Zimbra mail servers.
+          Completed comprehensive, hands-on laboratory training covering the fundamentals of Zextras Carbonio architecture and executed seamless migration workflows from legacy Zimbra mail servers.
 
   - title: Education
     layout: list
@@ -91,7 +85,7 @@ content:
         sub_title: Bachelor of Informatics Engineering
         caption: 2025 - Present
         description: |
-          Currently pursuing a degree in Informatics Engineering, focusing on computer science fundamentals, system infrastructure, and continuous technology learning.
+          Currently pursuing a degree with a core focus on computer science fundamentals, system infrastructure design, and continuous technology integration.
 
       - layout: top-left
         title: SMK Wikrama Bogor
@@ -100,20 +94,19 @@ content:
         description: |
           Learned about Computer Networking such as routing, router, switch and access point configuration, LAN crimping, fiber optic splicing, linux debian and ubuntu server installation and management.
 
-  - title: Skills & Interests
+  - title: Skills
     layout: text
     content: |
       **Technical Skills**
       - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
-      - **Mail Servers & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway
+      - **Mail & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway, Sorb Security Mail Encrypt
       - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
-      
-      **Personal Interests**
-      Outside of my professional work in cybersecurity and infrastructure, I am highly dedicated to continuous self-development.
-      - Mountain Hiking
-      - Running
-      - Gym Training 
-      - Reading Books / Watch some Movies
+
+      **Soft Skills**
+      - **Languages:** 
+        - English: Professional
+        - Indonesia: Native
+      - **Managements:** Time management, Teamwork, Public Speaking, Documentations
 
 # Footer
 footer_show_references: false
