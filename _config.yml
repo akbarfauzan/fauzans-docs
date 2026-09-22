@@ -106,13 +106,13 @@ content:
         description: |
           Learned about Computer Networking such as routing, router, switch and access point configuration, LAN crimping, fiber optic splicing, linux debian and ubuntu server installation and management.
 
-  - title: Skills & Interests
+- title: Skills & Interests
     layout: text
     content: |
-    **Technical Skills**
-    - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
-    - **Mail Servers & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway
-    - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
+      **Technical Skills**
+      - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
+      - **Mail Servers & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway
+      - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
 
 # Footer
 footer_show_references: false
