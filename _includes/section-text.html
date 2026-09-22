@@ -1,10 +1,5 @@
-{% for item in include.content %}
-  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}" data-aos="fade-up">
-    <div class="col-xs-12 col-print-12 details">
-      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-    </div>
-    <div class="col-xs-12 col-print-12 content">
-      {{ item.content | strip | markdownify }}
-    </div>
+<div class="row clearfix layout layout-text" data-aos="fade-up">
+  <div class="col-xs-12 col-print-12 content">
+    {{ include.content | strip | markdownify }}
   </div>
-{% endfor %}
+</div>
