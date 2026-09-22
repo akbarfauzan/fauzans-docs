@@ -33,6 +33,14 @@
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    duration: 800, // Makes the animation last 0.8 seconds
+    once: true,    // Ensures the animation only happens once per scroll
+    offset: 100    // Triggers the animation slightly before the item is fully on screen
+  });
+</script>
 </body>
 
 </html>
