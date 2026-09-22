@@ -100,15 +100,36 @@ content:
     layout: text
     content: |
       **Technical Skills**
-      - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
-      - **Mail & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway, Sorb Security Mail Encrypt
-      - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
+      - **Infrastructure & Virtualization:** 
+        - Proxmox Virtual Environment
+        - VMware ESXi
+        - Harvester
+        - VirtualBox
+        
+      - **Mail & Security:** 
+        - Zimbra Collaboration Suite
+        - Zextras Carbonio Workspace
+        - FortiMail Email Security
+        - Proxmox Mail Gateway
+        - Sorb Security Mail Encrypt
+      
+      - **Automation & Load Balancer:** 
+        - Linux Bash Scripting
+        - Ansible
+        - AWK & PowerShell
+        - Relianoid
+        - OpenNAS (TrueNAS & ZimaOS)
 
       **Soft Skills**
       - **Languages:** 
         - English: Professional
         - Indonesia: Native
-      - **Managements:** Time management, Teamwork, Public Speaking, Documentations
+        
+      - **Managements:** 
+        - Time Management
+        - Teamwork
+        - Public Speaking
+        - Documentations
 
 # Footer
 footer_show_references: false
