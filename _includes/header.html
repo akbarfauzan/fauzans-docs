@@ -104,19 +104,21 @@
             </a>
           </li>
         {% endfor %}
-        <!-- Custom Steam Link -->
+        {%- if site.steam_username -%}
           <li>
-            <a target="_blank" href="https://steamcommunity.com/profiles/76561199415901364" class="button button--sacnite button--round-l">
-              <i class="fab fa-steam" title="Steam link"></i> fznnakbr
+            <a target="_blank" href="https://steamcommunity.com/profiles/{{ site.steam_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-steam" title="Steam link"></i> {{ site.steam_username }}
             </a>
           </li>
+        {%- endif -%}
 
-        <!-- Custom Twitch Link -->
+        {%- if site.twitch_username -%}
           <li>
-            <a target="_blank" href="https://twitch.tv/jofisking" class="button button--sacnite button--round-l">
-              <i class="fab fa-twitch" title="Twitch link"></i> jofisking
+            <a target="_blank" href="https://twitch.tv/{{ site.twitch_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-twitch" title="Twitch link"></i> {{ site.twitch_username }}
             </a>
           </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
