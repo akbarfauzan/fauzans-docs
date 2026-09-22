@@ -1,5 +1,5 @@
 # Site
-repository: akbarfauzan/fauzans-docs
+repository: fauzanakbr/fauzans-docs
 baseurl: "/fauzans-docs"
 # favicon: images/favicon.ico
 
@@ -10,13 +10,13 @@ version: 2
 name: Fauzan Akbar
 title: System Engineer
 email: fauzannakbr@gmail.com
-phone: "62 858 9412 9277"
+phone: "+62-858-9412-9277"
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links (Commented out the ones you don't use to hide their icons)
-github_username: akbarfauzan
+github_username: fauzanakbr
 linkedin_username: fznnakbr21 # Update this with your actual LinkedIn username
 # twitter_username: jekyllrb
 # stackoverflow_username: "00000001"
@@ -42,8 +42,8 @@ content:
         sub_title: System Engineer
         caption: 2025 - Present
         description: | 
-          - <i class="fas fa-server" style="color: #4CAF50;"></i> Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
-          - <i class="fas fa-shield-alt" style="color: #2196F3;"></i> Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
+          - Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
+          - Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
           - Developed custom Bash scripts (`script-pm.sh`, `getuser.sh`) and Ansible playbooks (`audit_carbonio.yml`) to automate server auditing, health checks, and bulk Class of Service updates.
           - Configured network security and mail gateways using FortiMail and Proxmox Mail Gateway.
       
@@ -54,19 +54,19 @@ content:
         caption: 2024 - 2025
         description: | 
           - Participated in the 'MIGRASI' project by KOMINFO - BAKTI for internet installation using VSAT HTS at 3T locations.
-          - Executed installation, maintenance, dismantling, and migration projects across remote areas in Indonesia, including the Papua Region (Biak Island, Raja Ampat) and South Sumatra.
+          - Executed installation, maintenance, dismantling, and migration projects across remote areas in Indonesia, including the Papua Region and South Sumatra.
 
   - title: Projects & Certifications
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Sorb Security Mail Encrypt
         sub_title: Enterprise-Grade Email Security
         caption: Current Project
         description: | 
           Implementation of mail encryption topologies to ensure zero-trust precision and secure email transmission across enterprise environments.
       
-      - layout: right
+      - layout: left
         border: weak
         title: Carbonio L1 Certification
         sub_title: Zextras (306)
@@ -77,7 +77,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Universitas Indraprasta (PGRI)
         sub_title: Bachelor of Informatics Engineering
         caption: 2025 - Present
@@ -93,7 +93,11 @@ content:
       - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
       
       **Personal Interests**
-      Outside of my professional work in cybersecurity and infrastructure, I am highly dedicated to continuous self-development. I enjoy mountain hiking, traveling, gym training, and reading books to maintain discipline and endurance.
+      Outside of my professional work in cybersecurity and infrastructure, I am highly dedicated to continuous self-development.
+      - Mountain Hiking
+      - Running
+      - Gym Training 
+      - Reading Books / Watch some Movies
 
 # Footer
 footer_show_references: false
