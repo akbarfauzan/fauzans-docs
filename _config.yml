@@ -40,7 +40,7 @@ content:
       - layout: left
         title: Altaflix Techno Global
         sub_title: System Engineer
-        caption: 2025 - Present
+        caption: May 2025 - Present
         description: | 
           - Engineered and administered enterprise mail server topologies utilizing Zimbra Collaboration Suite and Zextras Carbonio multi-node architectures.
           - Managed server virtualization and backups across Proxmox VE, VMware ESXi, and Acronis Cyber Protect Cloud environments.
@@ -51,10 +51,18 @@ content:
         border: weak
         title: Halik Selindo Alpha
         sub_title: VSAT Engineer
-        caption: 2024 - 2025
+        caption: Jul 2024 - May 2025
         description: | 
           - Participated in the 'MIGRASI' project by KOMINFO - BAKTI for internet installation using VSAT HTS at 3T locations.
           - Executed installation, maintenance, dismantling, and migration projects across remote areas in Indonesia, including the Papua Region and South Sumatra.
+
+      - layout: left
+        border: weak
+        title: Kompas Gramedia Radio Network
+        sub_title: IT Support (Internship)
+        caption: Jan 2023 - Jul 2023
+        description: |
+          As an intern IT Support, I managed and maintaned of office network and devices, supporting end user cases / issues, managed and created some notes and reports of my activity during this internship.
 
   - title: Projects & Certifications
     layout: list
@@ -83,6 +91,14 @@ content:
         caption: 2025 - Present
         description: | 
           Currently pursuing a degree in Informatics Engineering, focusing on computer science fundamentals, system infrastructure, and continuous technology learning.
+
+      - layout: top-left
+        border: strong
+        title: SMK Wikrama Bogor
+        sub_title: Computer Network Engineering & Telecommunications
+        caption: 2021 - 2024
+        description: |
+          Learned about Computer Networking such as routing, router, switch and access point configuration, LAN crimping, fiber optic splicing, linux debian and ubuntu server installation and management.
 
   - title: Skills & Interests
     layout: text
