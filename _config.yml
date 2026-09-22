@@ -108,20 +108,11 @@ content:
 
   - title: Skills & Interests
     layout: text
-    content:
-      - layout: top-left
-        sub_title: Technical Skills
-        - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
-        - **Mail Servers & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway
-        - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
-      
-      - layout: top-left
-        sub_title: Personal Interests
-        Outside of my professional work in cybersecurity and infrastructure, I am highly dedicated to continuous self-development.
-        - Mountain Hiking
-        - Running
-        - Gym Training 
-        - Reading Books / Watch some Movies
+    content: |
+    **Technical Skills**
+    - **Infrastructure & Virtualization:** Proxmox VE, VMware ESXi, Harvester
+    - **Mail Servers & Security:** Zimbra, Zextras Carbonio, FortiMail, Proxmox Mail Gateway
+    - **Automation & Scripting:** Linux Bash scripting, Ansible, AWK, PowerShell
 
 # Footer
 footer_show_references: false
