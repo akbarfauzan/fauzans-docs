@@ -1,5 +1,5 @@
 # Site
-repository: fauzanakbr/fauzans-docs
+repository: run-wysiwyg/fauzans-docs
 baseurl: "/fauzans-docs"
 
 # Content configuration version
@@ -15,10 +15,12 @@ phone: "+62-858-9412-9277"
 darkmode: false
 
 # Social links
-github_username: fauzanakbr
+github_username: wysiwyg
 linkedin_username: fznnakbr21
 instagram_username: fznnakbr
-    
+steam_username: 76561199415901364
+twitch_username: jofisking
+
 # About Section
 about_profile_image: fauzan-profile.png 
 about_content: |
